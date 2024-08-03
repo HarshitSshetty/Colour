@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color App by Harshit</title>
+    <style>
+        * { 
+            font-size: 80px; 
+            font-family: 'Ink Free', cursive; 
+         }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Color App</h1>
+        <form id="colorForm">
+            <button type="button" onclick="changeColor('red')">Red</button>
+            <button type="button" onclick="changeColor('green')">Green</button>
+            <button type="button" onclick="changeColor('blue')">Blue</button>
+        </form>
+    </center>
+    <script>
+        function changeColor(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
